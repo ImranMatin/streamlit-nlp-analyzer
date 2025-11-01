@@ -13,14 +13,14 @@ This project is a powerful, real-time application built with Streamlit and Pytho
 
 ---
 ### Project Structure
-
+```
 streamlit-nlp-analyzer/
 ├── app.py              # Main source code for the Streamlit web application and all NLP logic.
 ├── .gitignore          # Configures Git to ignore large files and temporary folders (e.g., nltk_data/, .streamlit/).
 ├── requirements.txt    # Lists all necessary Python packages (Streamlit, TextBlob, Sumy, etc.) for installation.
 ├── README.md           # This document provides the project overview, setup instructions, and feature details.
 └── LICENSE             # Specifies the terms under which the code can be used (MIT License).
-
+```
 ---
 
 ## 🚀 Getting Started
