@@ -1,7 +1,5 @@
 # 🧠 Streamlit NLP Analyzer
 
-### FEAT: Implement core Streamlit NLP Analyzer (Hackathon Project)
-
 This project is a powerful, real-time application built with Streamlit and Python for Natural Language Processing (NLP). It provides three core features for extracting value and insight from any block of text.
 
 ---
@@ -41,15 +39,15 @@ Two of the libraries (textblob and sumy) rely on linguistic data from NLTK. You 
 Bash
 
 # Open the Python interpreter
-python
+
 Run these two lines inside the interpreter:
 
 Python
 
-import nltk
-nltk.download('punkt')
-nltk.download('punkt_tab')
-exit()
+- import nltk
+- nltk.download('punkt')
+- nltk.download('punkt_tab')
+- exit()
 
 ### 3. Run the Application
 
@@ -57,8 +55,8 @@ Start the Streamlit server from the root directory of the project:
 
 Bash
 
-streamlit run app.py
-The application will automatically open in your web browser at http://localhost:8501.
+- streamlit run app.py
+- The application will automatically open in your web browser at http://localhost:8501.
 
 ### 🛠️ Tech Stack
 
@@ -70,5 +68,13 @@ The application will automatically open in your web browser at http://localhost:
 
 - Visualization: WordCloud and Matplotlib
 
+streamlit-nlp-analyzer/ ├── app.py ├── .gitignore ├── requirements.txt ├── README.md └── LICENSE
+
+### 🎉 Acknowledgements
+
+This project, Streamlit NLP Analyzer, was proudly developed and submitted as part of the **1M Celebration Hackathon**, **hosted by Tina Huang**.
+
 ### 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+    This project is licensed under the MIT License - see the LICENSE file for details.
+
+
