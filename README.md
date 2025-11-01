@@ -71,6 +71,9 @@ Start the Streamlit server from the root directory of the project:
 
 - Visualization: WordCloud and Matplotlib
 
+### Project Tutorial 
+
+https://www.loom.com/share/10fb605a010f47748c95225440c4e6a3
 
 ### 🎉 Acknowledgements
 
