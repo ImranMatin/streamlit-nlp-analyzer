@@ -29,9 +29,6 @@ You need **Python 3.x** installed on your system. Using a virtual environment (l
 
 ### 1. Installation
 
-Clone the repository and install the required packages using the `requirements.txt` file:
-
-```bash
 # Clone the repository (Use your actual repo URL)
 git clone <YOUR_REPO_URL>
 cd streamlit-nlp-analyzer
@@ -105,7 +102,7 @@ Bash
 streamlit run app.py
 The application will automatically open in your web browser at http://localhost:8501.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Framework: Streamlit
 
 Sentiment Analysis: TextBlob
@@ -114,5 +111,7 @@ Summarization: Sumy (using LSA)
 
 Visualization: WordCloud and Matplotlib
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+<img width="468" height="646" alt="image" src="https://github.com/user-attachments/assets/03e4f45a-36ae-48e6-9059-1639c835376e" />
+
