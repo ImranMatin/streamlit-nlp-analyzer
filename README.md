@@ -1,5 +1,4 @@
 # 🧠 Streamlit NLP Analyzer
-Author: Imran Matin
 
 This project is a powerful, real-time application built with Streamlit and Python for Natural Language Processing (NLP). It provides three core features for extracting value and insight from any block of text.
 
@@ -13,7 +12,7 @@ This project is a powerful, real-time application built with Streamlit and Pytho
 * **3. Word Cloud Visualization:** Provides an instant, visual representation of the most frequent and important words in the input text.
 
 ---
-Project Structure
+### Project Structure
 
 streamlit-nlp-analyzer/
 ├── app.py              # Main source code for the Streamlit web application and all NLP logic.
