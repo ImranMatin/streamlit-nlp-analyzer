@@ -72,14 +72,15 @@ You need **Python 3.x** installed on your system. Using a virtual environment (l
 
 Clone the repository and install the required packages using the `requirements.txt` file:
 
-```bash
+bash
 # Clone the repository (Use your actual repo URL)
-git clone <YOUR_REPO_URL>
-cd streamlit-nlp-analyzer
+- git clone <YOUR_REPO_URL>
+- cd streamlit-nlp-analyzer
 
 # Install all necessary Python libraries
-pip install -r requirements.txt
-2. Download NLTK Data
+  pip install -r requirements.txt
+
+### 2. Download NLTK Data
 Two of the libraries (textblob and sumy) rely on linguistic data from NLTK. You must download these two specific files to run the app:
 
 Bash
@@ -94,7 +95,9 @@ import nltk
 nltk.download('punkt')
 nltk.download('punkt_tab')
 exit()
-3. Run the Application
+
+### 3. Run the Application
+
 Start the Streamlit server from the root directory of the project:
 
 Bash
@@ -102,7 +105,7 @@ Bash
 streamlit run app.py
 The application will automatically open in your web browser at http://localhost:8501.
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 Framework: Streamlit
 
 Sentiment Analysis: TextBlob
@@ -111,7 +114,5 @@ Summarization: Sumy (using LSA)
 
 Visualization: WordCloud and Matplotlib
 
-## 📄 License
+### 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-<img width="468" height="646" alt="image" src="https://github.com/user-attachments/assets/03e4f45a-36ae-48e6-9059-1639c835376e" />
-
