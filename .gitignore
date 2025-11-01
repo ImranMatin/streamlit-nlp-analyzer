@@ -343,6 +343,19 @@ paket-files/
 **/__pycache__/
 *.pyc
 
+# Streamlit/NLTK/Project files
+.streamlit/
+nltk_data/
+
+# Anaconda/Conda specific
+.conda/
+
+# IDE specific
+.vscode/
+
+# Logs
+*.log
+
 # Cake - Uncomment if you are using it
 #tools/**
 #!tools/packages.config
