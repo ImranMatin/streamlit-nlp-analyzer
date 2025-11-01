@@ -73,11 +73,11 @@ You need **Python 3.x** installed on your system. Using a virtual environment (l
 Clone the repository and install the required packages using the `requirements.txt` file:
 
 bash
-# Clone the repository (Use your actual repo URL)
+## Clone the repository (Use your actual repo URL)
 - git clone <YOUR_REPO_URL>
 - cd streamlit-nlp-analyzer
 
-# Install all necessary Python libraries
+## Install all necessary Python libraries
   pip install -r requirements.txt
 
 ### 2. Download NLTK Data
