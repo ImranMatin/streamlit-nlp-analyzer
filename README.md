@@ -1,4 +1,5 @@
 # 🧠 Streamlit NLP Analyzer
+Author: Imran Matin
 
 This project is a powerful, real-time application built with Streamlit and Python for Natural Language Processing (NLP). It provides three core features for extracting value and insight from any block of text.
 
@@ -12,6 +13,17 @@ This project is a powerful, real-time application built with Streamlit and Pytho
 * **3. Word Cloud Visualization:** Provides an instant, visual representation of the most frequent and important words in the input text.
 
 ---
+Project Structure
+
+Your project directory should look like this (minimal and clean for a Streamlit app):
+
+streamlit-nlp-analyzer/
+├── app.py              # Main source code for the Streamlit web application and all NLP logic.
+├── .gitignore          # Configures Git to ignore large files and temporary folders (e.g., nltk_data/, .streamlit/).
+├── requirements.txt    # Lists all necessary Python packages (Streamlit, TextBlob, Sumy, etc.) for installation.
+├── README.md           # This document provides the project overview, setup instructions, and feature details.
+└── LICENSE             # Specifies the terms under which the code can be used (MIT License).
+
 
 ## 🚀 Getting Started
 
@@ -34,8 +46,6 @@ Follow these steps to set up and run the application locally.
 
 ### 2. Download NLTK Data
 Two of the libraries (textblob and sumy) rely on linguistic data from NLTK. You must download these two specific files to run the app:
-
-Bash
 
 ## Open the Python interpreter
 
@@ -63,7 +73,6 @@ Start the Streamlit server from the root directory of the project:
 
 - Visualization: WordCloud and Matplotlib
 
-streamlit-nlp-analyzer/ ├── app.py ├── .gitignore ├── requirements.txt ├── README.md └── LICENSE
 
 ### 🎉 Acknowledgements
 
