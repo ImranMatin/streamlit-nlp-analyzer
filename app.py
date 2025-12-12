@@ -9,6 +9,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import nltk
 nltk.download("punkt")
+nltk.download('punkt_tab')
 
 # 2. Define the Main Analysis Function (Unchanged)
 
