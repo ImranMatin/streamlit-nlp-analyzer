@@ -7,6 +7,8 @@ from sumy.summarizers.lsa import LsaSummarizer
 # >> NEW IMPORTS: for Word Cloud
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import nltk
+nltk.download("punkt")
 
 # 2. Define the Main Analysis Function (Unchanged)
 
